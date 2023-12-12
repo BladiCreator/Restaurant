@@ -10,12 +10,15 @@ insert into dishes (dish_name, description, price) values ('Chivo guisado', 'Gui
 
 -- Empleados
 
-insert into employees (first_name, last_name, position, salary) values ('Ealasaid', 'Gerente', '寿', 3000);
-insert into employees (first_name, last_name, position, salary) values ('Sharline', 'Chef ejecutivo', '娄', 2700);
+insert into employees (first_name, last_name, position, salary) values ('Ealasaid', 'Frazier', 'Gerente', 3000);
+insert into employees (first_name, last_name, position, salary) values ('Sharline', 'Montgomery', 'Chef ejecutivo', 2700);
 insert into employees (first_name, last_name, position, salary) values ('Rica', 'Kimbrey', 'Sous-chef', 2100);
 insert into employees (first_name, last_name, position, salary) values ('Hurleigh', 'Cicchinelli', 'Mesoneros', 1800);
+insert into employees (first_name, last_name, position, salary) values ('Hurleigh', 'Cicchinelli', 'Mesoneros', 1800);
 insert into employees (first_name, last_name, position, salary) values ('Anthia', 'Bridgewood', 'Personal de limpieza', 1800);
-
+-- 
+insert into employees (first_name, last_name, position, salary) values ('Mabem', 'Khahrer', 'Mesoneros', 1800);
+insert into employees (first_name, last_name, position, salary) values ('Rehler', 'Ruku', 'Mesoneros', 1800);
 -- Clientes
 
 insert into customers (first_name, last_name, contact_info) values ('Bearnard', 'Week', 'bweek0@discovery.com');
@@ -27,6 +30,10 @@ insert into customers (first_name, last_name, contact_info) values ('Paton', 'Go
 -- Orden
 
 insert into orders (customer_id, employee_id, order_date, total_amount) values (1, 1, '2023-02-09', 80.0);
+insert into orders (customer_id, employee_id, order_date, total_amount) values (2, 2, '2023-02-09', 39.0);
+insert into orders (customer_id, employee_id, order_date, total_amount) values (3, 1, '2023-02-09', 78.0);
+
+
 insert into orders (customer_id, employee_id, order_date, total_amount) values (2, 2, '2023-10-29', 95.9);
 insert into orders (customer_id, employee_id, order_date, total_amount) values (3, 3, '2023-01-28', 58.55);
 insert into orders (customer_id, employee_id, order_date, total_amount) values (4, 4, '2022-12-26', 81.18);
@@ -36,6 +43,8 @@ insert into orders (customer_id, employee_id, order_date, total_amount) values (
 
 insert into order_details (order_id, dish_id, quantity, price) values (1, 1, 1, 139);
 insert into order_details (order_id, dish_id, quantity, price) values (2, 2, 5, 142);
+insert into order_details (order_id, dish_id, quantity, price) values (2, 1, 3, 130);
+insert into order_details (order_id, dish_id, quantity, price) values (2, 4, 1, 30);
 insert into order_details (order_id, dish_id, quantity, price) values (3, 3, 2, 169);
 insert into order_details (order_id, dish_id, quantity, price) values (4, 4, 5, 116);
 insert into order_details (order_id, dish_id, quantity, price) values (5, 5, 1, 97);
