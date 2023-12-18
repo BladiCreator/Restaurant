@@ -14,7 +14,7 @@ insert into employees (first_name, last_name, position, salary) values ('Ealasai
 insert into employees (first_name, last_name, position, salary) values ('Sharline', 'Montgomery', 'Chef ejecutivo', 2700);
 insert into employees (first_name, last_name, position, salary) values ('Rica', 'Kimbrey', 'Sous-chef', 2100);
 insert into employees (first_name, last_name, position, salary) values ('Hurleigh', 'Cicchinelli', 'Mesoneros', 1800);
-insert into employees (first_name, last_name, position, salary) values ('Hurleigh', 'Cicchinelli', 'Mesoneros', 1800);
+insert into employees (first_name, last_name, position, salary) values ('Myke', 'Cicchinelli', 'Mesoneros', 1800);
 insert into employees (first_name, last_name, position, salary) values ('Anthia', 'Bridgewood', 'Personal de limpieza', 1800);
 -- 
 insert into employees (first_name, last_name, position, salary) values ('Mabem', 'Khahrer', 'Mesoneros', 1800);

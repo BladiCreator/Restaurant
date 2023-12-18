@@ -32,7 +32,8 @@ SELECT
     dish_name
 FROM dishes AS D
     INNER JOIN order_details AS O ON O.dish_id = D.dish_id
-GROUP BY D.dish_id;
+GROUP BY D.dish_id
+ORDER BY cantidad DESC;
 
 -- Mostrar la cantidad de pedidos atendidos por cada empleado.
 
